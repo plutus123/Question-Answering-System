@@ -49,9 +49,6 @@ pip unstall -r requirements.txt
 ```
 # Running the System
 
-### OR
-
-
 •	Clone the repository in your own system and run all the .py files in the terminal or you can even directly run my .ipynd file in jupyter notebook or google colab.
 
 •	Make sure to use your OpenAI key while running the LLM.

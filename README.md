@@ -12,6 +12,7 @@ https://github.com/user-attachments/assets/24e83cae-07ed-4f83-bcd7-fcc246e3d58f
 ### Document Processing
 
 •	Scraping and Chunking: The system can scrape CUDA documentation from official sources automatically splitting it into manageable chunks for indexing and retrieval. This preprocessing step ensures that the search index is comprehensive and up-to-date.
+
 •	Metadata Handling: Each chunk of documentation is stored with relevant metadata such as the topic and URL facilitating more detailed and informative search results.
 
 
@@ -19,6 +20,7 @@ https://github.com/user-attachments/assets/24e83cae-07ed-4f83-bcd7-fcc246e3d58f
 ### Hybrid Search
 
 •	Dense Vector Search: Uses Milvus or FAISS to perform efficient and scalable dense vector searches. This allows for high-speed retrieval of relevant documents based on semantic similarity.
+
 •	BM25 Retrieval: Employs the BM25 algorithm a popular probabilistic IR model to retrieve documents based on term frequency and inverse document frequency ensuring accurate keyword-based search results.
 
 ### Query Expansion
@@ -36,6 +38,7 @@ https://github.com/user-attachments/assets/24e83cae-07ed-4f83-bcd7-fcc246e3d58f
 ### Interactive Interface
 
 •	Gradio Integration: Provides an easy-to-use web interface powered by Gradio. Users can input queries, view search results, and receive answers in a streamlined manner.
+
 •	Real-Time Interaction: Offers real-time interaction, allowing users to quickly query and receive responses about CUDA documentation.
 
 # Installation Guide
@@ -50,6 +53,7 @@ pip unstall -r requirements.txt
 
 
 •	Clone the repository in your own system and run all the .py files in the terminal or you can even directly run my .ipynd file in jupyter notebook or google colab.
+
 •	Make sure to use your OpenAI key while running the LLM.
 
 
